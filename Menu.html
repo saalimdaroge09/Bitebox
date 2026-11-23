@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bitebox Menu</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        ol{
+            background-color: antiquewhite;
+            padding: 10px;
+        }
+        .navlink{
+            padding: 8px;
+            margin: 8px;
+            display: inline-block;
+            font-weight: bold;
+        }
+        a{
+            text-decoration: none;
+            color: black;
+        }
+        a:hover{
+            color: rgb(91, 12, 12);
+            font-size: larger;
+            
+        }
+        .cardcontainer{
+
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            height: 20%;
+            margin: 2%;
+            padding: 10px;
+            background-color: blanchedalmond;
+            /* box-shadow: 10px 10px 3px rgb(0, 0, 0); */
+            border: 5px solid rgb(118, 82, 82);
+            border-radius: 30px;
+            color: rgb(97, 39, 39);
+        }
+
+        .card
+        {
+            margin: 10px;
+            background-color: aliceblue;
+            width: 25%;
+            padding: 20px;
+            text-align: center;
+        }
+        .cardimg{
+            height: 200px;
+            width: 100%;
+            padding: 10px;
+            /* margin: 2%; */
+            /* box-shadow: 10px 10px 3px rgb(97, 39, 39); */
+            border-radius: 30px;
+
+        }
+        .Categories{
+            background-color: rgb(97, 39, 39);
+            width: 30%;
+            padding: 10px;
+            list-style-position: inside;
+            border-radius: 30px;
+        }
+        .Categories li{
+            padding: 10px;
+            margin: 10px;
+            color: rgb(118, 82, 82);
+            background-color: bisque;
+            list-style-image : url(./assets/bullet.jpg);
+            font-size: xx-large;
+            border-radius: 30px;
+        }
+        .Order{
+            background-color: rgb(97, 39, 39);
+            width: 30%;
+            padding: 10px;
+            margin-left: 10px;
+            list-style-position: inside;
+            border-radius: 30px;
+        }
+        .Order li{
+            padding: 10px;
+            margin: 10px;
+            color: rgb(118, 82, 82);
+            background-color: bisque;
+            list-style-image : url(./assets/bullet.jpg);
+            font-size: xx-large;
+            border-radius: 30px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ol>
+            <li class="navlink"><a href="./index.html">Home</a></li>
+            <li class="navlink"><a href="./Menu.html">Menu</a></li>
+            <li class="navlink"><a href="./About.html">About</a></li>
+            <li class="navlink"><a href="./Contact.html">Contact</a></li>
+            <li class="navlink"><a href="./Login.html">Login</a></li>
+        </ol>
+    </nav>
+        <h2>Our Popular Dishes</h2>
+
+    <div class="cardcontainer">
+        <div class="card">
+              <img class="cardimg" src="./assets/burger.jpg" alt="Burger">
+              <h1>Burger</h1>
+              <p>Classic Burger</p>
+              <h3>Price: 99₹</h3>
+              <button>Buy Now</button>
+        </div>
+
+
+         <div class="card">
+              <img class="cardimg" src="./assets/burger.jpg" alt="Burger">
+              <h1>Burger</h1>
+              <p>Classic Burger</p>
+              <h3>Price: 99₹</h3>
+              <button>Buy Now</button>
+        </div>
+
+         <div class="card">
+              <img class="cardimg" src="./assets/burger.jpg" alt="Burger">
+              <h1>Burger</h1>
+              <p>Classic Burger</p>
+              <h3>Price: 99₹</h3>
+              <button>Buy Now</button>
+        </div>
+
+         <div class="card">
+              <img class="cardimg" src="./assets/burger.jpg" alt="Burger">
+              <h1>Burger</h1>
+              <p>Classic Burger</p>
+              <h3>Price: 99₹</h3>
+              <button>Buy Now</button>
+        </div>
+         <div class="card">
+              <img class="cardimg" src="./assets/burger.jpg" alt="Burger">
+              <h1>Burger</h1>
+              <p>Classic Burger</p>
+              <h3>Price: 99₹</h3>
+              <button>Buy Now</button>
+        </div>
+        <!-- <img src="./assets/pasta.jpg" alt="Pasta">
+        <img src="./assets/french fries.jpg" alt="French Fries">
+        <img src="./assets/pizza.jpg" alt="Pizza">
+        <img src="./assets/sandwich.jpg" alt="Sandwich"> -->
+    </div>
+    <br>
+    <hr>
+    <h2>Food Categories</h2>
+    <ul class="Categories">
+        <li>Burger</li>
+        <li>Pasta</li>
+        <li>French Fries</li>
+        <li>Pizza</li>
+        <li>Sandwich</li>
+    </ul>
+    <br>
+    <hr>
+    <h2>How To Place An Order</h2>
+    <ol class="Order">
+        <li>Select Your Favourite Food</li>
+        <li>Add The Items To Your Cart</li>
+        <li>Confirm Your Order</li>
+        <li>Enjoy Your Meal</li>
+    </ol>
+</body>
+</html>
