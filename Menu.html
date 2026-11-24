@@ -42,23 +42,46 @@
             border-radius: 30px;
             color: rgb(97, 39, 39);
         }
-
+        button {
+            background-color: rgb(255, 243, 243);
+            color: rgb(82, 12, 12);
+            padding: 12px 25px;
+            border: none;
+            border-radius: 30px;
+            font-size: 16px;
+            font-weight: bold; 
+            cursor: pointer;  
+        }
+        button:hover {
+            background-color: rgb(150, 70, 50);
+            box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.4);
+        }
         .card
         {
             margin: 10px;
-            background-color: aliceblue;
-            width: 25%;
+            background-color: rgb(100, 59, 9);
+            width: 29%;
             padding: 20px;
             text-align: center;
+            border-radius: 30px;
+            color: bisque;
         }
-        .cardimg{
+        /* .cardimg{
             height: 200px;
             width: 100%;
             padding: 10px;
-            /* margin: 2%; */
-            /* box-shadow: 10px 10px 3px rgb(97, 39, 39); */
+            margin: 2%; 
+            box-shadow: 10px 10px 3px rgb(97, 39, 39); 
             border-radius: 30px;
-
+        } */
+         .cardimg {
+            height: 200px;
+            width: 100%;
+            box-sizing: border-box;
+            display: block;
+            margin: auto;
+            border-radius: 30px;
+            object-fit: cover;
         }
         .Categories{
             background-color: rgb(97, 39, 39);
@@ -66,6 +89,7 @@
             padding: 10px;
             list-style-position: inside;
             border-radius: 30px;
+            margin-left: 10px;
         }
         .Categories li{
             padding: 10px;
@@ -93,6 +117,9 @@
             font-size: xx-large;
             border-radius: 30px;
         }
+        h2 {
+            margin-left: 20px;
+        }
     </style>
 </head>
 <body>
@@ -105,52 +132,49 @@
             <li class="navlink"><a href="./Login.html">Login</a></li>
         </ol>
     </nav>
+    <br>
         <h2>Our Popular Dishes</h2>
 
     <div class="cardcontainer">
         <div class="card">
               <img class="cardimg" src="./assets/burger.jpg" alt="Burger">
               <h1>Burger</h1>
-              <p>Classic Burger</p>
+              <p>A juicy grilled patty layered with fresh lettuce, melted cheese, crispy onions, and delicious sauces, served in a soft toasted bun.</p>
               <h3>Price: 99₹</h3>
-              <button>Buy Now</button>
+              <button style="color: black;">Add to cart</button>
         </div>
 
 
          <div class="card">
-              <img class="cardimg" src="./assets/burger.jpg" alt="Burger">
-              <h1>Burger</h1>
-              <p>Classic Burger</p>
-              <h3>Price: 99₹</h3>
-              <button>Buy Now</button>
+              <img class="cardimg" src="./assets/french fries.jpg" alt="French Fries">
+              <h1>French Fries(R)</h1>
+              <p>Crispy golden French fries, perfectly seasoned with salt and fried to perfection, making every bite deliciously crunchy.</p>
+              <h3>Price: 80₹</h3>
+              <button>Add to cart</button>
         </div>
 
          <div class="card">
-              <img class="cardimg" src="./assets/burger.jpg" alt="Burger">
-              <h1>Burger</h1>
-              <p>Classic Burger</p>
-              <h3>Price: 99₹</h3>
-              <button>Buy Now</button>
+              <img class="cardimg" src="./assets/pasta.jpg" alt="Pasta">
+              <h1>White Sauce Pasta</h1>
+              <p>Creamy white sauce pasta tossed with perfectly cooked pasta, fresh herbs, garlic, and rich cheese sauce, delivering a smooth and delicious taste in every bite.</p>
+              <h3>Price: 249₹</h3>
+              <button>Add to cart</button>
         </div>
 
          <div class="card">
-              <img class="cardimg" src="./assets/burger.jpg" alt="Burger">
-              <h1>Burger</h1>
-              <p>Classic Burger</p>
-              <h3>Price: 99₹</h3>
-              <button>Buy Now</button>
+              <img class="cardimg" src="./assets/pizza.jpg" alt="Pizza">
+              <h1>Margherita pizza(7")</h1>
+              <p>A delicious Margherita pizza topped with rich tomato sauce, melted mozzarella cheese, and fresh basil, baked to perfection for a cheesy and flavorful experience.</p>
+              <h3>Price: 199₹</h3>
+              <button>Add to cart</button>
         </div>
          <div class="card">
-              <img class="cardimg" src="./assets/burger.jpg" alt="Burger">
-              <h1>Burger</h1>
-              <p>Classic Burger</p>
-              <h3>Price: 99₹</h3>
-              <button>Buy Now</button>
+              <img class="cardimg" src="./assets/sandwich.jpg" alt="Sandwich">
+              <h1>Cheese Sandwich</h1>
+              <p>A tasty grilled sandwich filled with melted cheese, fresh vegetables, and creamy sauces, toasted to golden perfection for a crispy and cheesy bite.</p>
+              <h3>Price: 149₹</h3>
+              <button>Add to cart</button>
         </div>
-        <!-- <img src="./assets/pasta.jpg" alt="Pasta">
-        <img src="./assets/french fries.jpg" alt="French Fries">
-        <img src="./assets/pizza.jpg" alt="Pizza">
-        <img src="./assets/sandwich.jpg" alt="Sandwich"> -->
     </div>
     <br>
     <hr>
