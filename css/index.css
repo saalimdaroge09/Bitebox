@@ -1,0 +1,102 @@
+ *{
+            margin: 0;
+            padding: 0;
+        }
+        ol{
+            background-color: antiquewhite;
+            padding: 10px;
+        }
+        .navlink{
+            padding: 8px;
+            margin: 8px;
+            display: inline-block;
+            font-weight: bold;
+        }
+        .disc{
+            list-style-type: none;
+        }
+        a{
+            text-decoration: none;
+            color: black;
+        }
+        a:hover{
+            color: rgb(91, 12, 12);
+            font-size: larger;
+            
+        }
+        main{
+            padding: 2%;
+            background-color: burlywood;
+        }
+        .Welcome{
+            padding: 2%;
+            margin: 2%;
+            background-color: cadetblue;
+        }
+        .About{
+            padding: 2%;
+            margin: 2%;
+            background-color: cornflowerblue;
+        }
+        .Story{
+            padding: 2%;
+            margin: 2%;
+            background-color: darkkhaki;
+        }
+        .ChefsMessage{
+            padding: 2%;
+            margin: 2%;
+            background-color: darkseagreen;
+        }
+        .FeaturedDishes{
+            padding: 2%;
+            margin: 2%;
+            background-color: cornsilk;
+        }
+        .SpecialOffer{
+            padding: 2%;
+            margin: 2%;
+            background-color: darkturquoise;
+        }
+        .ContactInfo{
+            padding: 2%;
+            margin: 2%;
+            background-color: rgb(221, 125, 221);
+        }
+        .CustomerNotice{
+            padding: 2%;
+            margin: 2%;
+            background-color: mistyrose;
+        }
+        .OpeningHours{
+            padding: 2%;
+            margin: 2%;
+            background-color: peru;
+        }
+        .dishlist{
+            display: flex ;
+            flex-direction: row;
+            justify-content: space-evenly;
+        }
+        .dish{
+            height: 200px;
+            width: 200px;
+            border-radius: 100px;
+            background-size: cover;
+            box-shadow: 5px 5px 5px pink;
+            margin: 10px;
+        }
+
+        .dish1{
+            background-image: url(../assets/pizza.jpg);
+        }
+        .dish2{
+            background-image: url(../assets/french\ fries.jpg);
+        }
+        .dish3{
+            background-image: url(../assets/pasta.jpg);
+        }.dish4{
+            background-image: url(../assets/pizza.jpg);
+        }.dish5{
+            background-image: url(../assets/sandwich.jpg);
+        }
